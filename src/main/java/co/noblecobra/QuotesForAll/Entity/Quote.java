@@ -12,7 +12,10 @@ public class Quote {
 	private String quotation;
 	private String subject;
 	private String source;
+	private String mood;
+	private String time;
 	
+
 	public Long getId() {
 		return id;
 	}
@@ -38,6 +41,18 @@ public class Quote {
 		this.source = source;
 	}
 	
+	public String getMood() {
+		return mood;
+	}
+	public void setMood(String mood) {
+		this.mood = mood;
+	}
+	public String getTime() {
+		return time;
+	}
+	public void setTime(String time) {
+		this.time = time;
+	}
 	
 
 }
